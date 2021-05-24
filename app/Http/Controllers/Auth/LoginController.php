@@ -7,6 +7,7 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request as Request;
 use Illuminate\Support\Facades\Auth;
+use Config;
 
 class LoginController extends Controller
 {
@@ -61,7 +62,7 @@ class LoginController extends Controller
     protected function authenticated(Request $request, $user)
     {
 
-        if ($user->role->status != 1) {
+        if ($user->role->status != Config::get('params.active')) {
             Auth::guard('web')->logout();
             return redirect()->route('admin')->with('error','User is not active.');
         }
