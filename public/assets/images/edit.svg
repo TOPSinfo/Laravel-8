@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>edit</title>
+    <defs>
+        <path d="M16,3.08 L13.91,1 C13.1299251,0.224552811 11.8700749,0.224552811 11.09,1 L0.29,11.79 L0,12.09 L0,16 L0,16 L0,17 L16,17 L16,16 L5.91,16 L16,5.91 C16.3755541,5.53486349 16.5865733,5.0258185 16.5865733,4.495 C16.5865733,3.9641815 16.3755541,3.45513651 16,3.08 L16,3.08 Z M4,15 L4,16 L2,16 L1,15 L1,13 L2,13 L12.5,2.41 L12.5,2.41 L14.58,4.5 L14.58,4.5 L4,15 Z M2.64776441,13.6456916 L12.6462543,3.64720167 L13.3533611,4.35430845 L3.3548712,14.3527983 L2.64776441,13.6456916 Z" id="path-1"></path>
+    </defs>
+    <g id="Order-List" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="edit" transform="translate(1.000000, 1.000000)">
+            <g transform="translate(6.000000, 6.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#56A8FE" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval" stroke="#56A8FE" stroke-width="2" cx="14.5" cy="14.5" r="14.5"></circle>
+        </g>
+    </g>
+</svg>

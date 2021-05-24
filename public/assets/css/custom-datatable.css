@@ -1,0 +1,79 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animate {
+    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+    border: 0 solid transition!important;
+    border: 0 solid rgba(0,0,0,.15);
+    border-radius: 0;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    z-index: 8!important;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown.actn-btn-dw ul.dropdown-menu {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.45)!important;
+}
+
+.dropdown.actn-btn-dw ul.dropdown-menu a:hover, .dropdown.actn-btn-dw ul.dropdown-menu button:hover {
+    background: #f5f5f5;
+    transition: all .5s ease;
+    color: #3e4555!important;
+}
+
+.dropdown.actn-btn-dw ul.dropdown-menu a, .dropdown.actn-btn-dw ul.dropdown-menu button {
+    display: block;
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    background: 0 0;
+    border-bottom: 1px solid #dadada;
+    font-size: 14px!important;
+    color: #56a8fe!important;
+    cursor: pointer;
+}
+
+.dropdown.actn-btn-dw {
+    position: relative;
+    right: 10px;
+}

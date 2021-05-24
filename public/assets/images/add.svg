@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Intial" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1199.000000, -237.000000)">
+            <g id="Group-5" transform="translate(1180.000000, 228.000000)">
+                <g id="Group-4" transform="translate(20.000000, 10.000000)">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="10" cy="10" r="10"></circle>
+                    <rect id="Rectangle" fill="#FFFFFF" x="9" y="5" width="2" height="10"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="5" y="9" width="10" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
